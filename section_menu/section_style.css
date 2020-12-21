@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+.menu-container{
+    position: relative;
+    top: 94px;
+    width: 100%;
+    height: 99vh;
+    /* background-color: rgb(241, 226, 226); 
+     border: 1px solid pink;  */
+    padding: 40px;
+    background: rgb(241,226,226);
+background: linear-gradient(166deg, rgba(241,226,226,1) 46%, rgba(250,178,6,0.7539390756302521) 77%);
+    
+    
+}
+ .details{
+     display: flex;
+     justify-content: space-around;
+     padding: 40px;
+     
+
+ }
+
+.mess-service{
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.9em;
+    
+}
+
+
+.schedule{
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+}
+
+.invoice fieldset{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.pay-btn{
+    width:400px;
+    border: none;
+    background-color: #1cad;
+    padding: 20px;
+    /* margin: 30px; */
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    box-shadow:  0 0 3px 0 rgba(0,0,0,0.3);
+}
+
+.pay-btn:hover{
+    box-shadow: 0 0 0 5px  #1cad;
+    transition: all 200ms ease-out;
+ }

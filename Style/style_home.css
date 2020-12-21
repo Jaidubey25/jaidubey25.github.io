@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 3;
+    /* pointer-events: none; */
+    height: fit-content;
+    width: 5%;
+}
+
+.navigation1 {
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 3;
+    /* pointer-events: none; */
+    height: fit-content;
+    width: 5%;
+}
+
+
+
+.navigation a {
+    width: 100%;
+    pointer-events: auto;
+}
+/* .navdot {
+    filter: invert(100); 
+}
+.control {
+     pointer-events: none; 
+} */
+.navbar {
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    margin-bottom: 150px;
+    z-index: 2;
+}
+.logo {
+    position: relative;
+    top: 21px;
+    left: 69px;
+}
+.logo img {
+    height: 53px;
+}
+.slider {
+    overflow: hidden;
+}
+#home {
+    width: 100%;
+    height: 100vh;
+    /* background: rgb(56 81 43 / 19%); */
+    
+    background: url("../Asset/image.jpg") center center/cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center; */
+}
+.demo {
+    /* position: absolute; */
+    
+    color: black;
+    /* top: 38%;
+  right: 16%; */
+    width: 300px;
+    padding: 20px;
+    margin: 0% auto 0;
+    font-family: "Trispace", sans-serif;
+    /* justify-content: center; */
+    z-index: 1000;
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+/* .display {
+    
+} */
+.illustration {
+    /* position: absolute;
+  color: black;
+  top: 20%;
+  left: 11%;
+  z-index: 2; */
+    
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+}
+.illustration img {
+    width: 95%;
+}
+.demo h1 {
+    margin-top: 70px;
+    font-size: 61px;
+    text-transform: uppercase;
+}
+.navdot {
+    width: 100%;
+}
+#services {
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    z-index: -1;
+    display: flex;
+    overflow: hidden;
+}
+#team {
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    z-index: -1;
+}
+.main {
+    /* color: #ffffff; */
+    
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    justify-content: center;
+    /* margin-top: 55px; */
+    
+    font-size: x-large;
+    font-family: "Fredoka One", cursive;
+}
+.main h1 {
+    text-align: center;
+    animation: chngop 5s ease-in-out;
+    font-family: "Trispace", sans-serif;
+    color: black;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+.main .h3 {
+    text-align: center;
+    margin-bottom: 21px;
+    animation: chngop 5s ease-in-out;
+    font-family: "Trispace", sans-serif;
+}
+.main img {
+    text-align: center;
+    height: 300px;
+    /* margin-top: 115px; */
+}
+.btn {
+    animation: chngop 3s ease-in-out;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px 25px;
+    margin-top: 34px;
+    border: 2px solid black;
+    transition: color 2s;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 26px;
+    z-index: 10001;
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+@keyframes chngop {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+.himg {
+    opacity: 1;
+    animation-name: chngop;
+    animation-duration: 2.5s;
+}
+.card {
+    width: 20%;
+    cursor: default;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px;
+    margin: 2%;
+}
+.font-box:hover {
+    transform: translateY(-20px);
+    transition: all 1s ease-in-out;
+}
+.image img {
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.font-box {
+    font-size: 20px;
+    /* font-weight: ; */
+    
+    padding: 88px 12px;
+    width: 25%;
+    font-family: "Trispace", sans-serif;
+}
+.font-box i {
+    color: tomato;
+    font-weight: bold;
+}
+.title {
+    text-align: center;
+    padding: 10px;
+}
+.card h1 {
+    font-size: 20px;
+}
+.des {
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+} */
+.con {
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Servicces */
+.fix {
+    width: 50%;
+    height: 100%;
+    background-color: #59baff;
+    display: flex;
+}
+.show {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.hcon {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+#serhead {
+    color: white;
+    font-family: "montserrat";
+    font-size: 97px;
+    text-transform: uppercase;
+    /* margin-top: 206px; */
+}
+/* .cont {}
+.cont section {} */
+.sernav {
+    margin-top: 20px;
+}
+#ss {
+    width: 100%;
+    height: 935px;
+    background-color: khaki;
+    display: flex;
+}
+#ss1 {
+    display: flex;
+    width: 100%;
+    height: 935px;
+    background-color: indianred;
+}
+#ss2 {
+    display: flex;
+    width: 100%;
+    height: 935px;
+    background-color: teal;
+}
