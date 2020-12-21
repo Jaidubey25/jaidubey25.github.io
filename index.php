@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="Style/style_home.css">
     <link rel="stylesheet" href="Style/btn.css">
     <title>Rasoda.in | Home</title>
+
 </head>
 
 <body>
     <header>
-        <a href="#home" class="logo">Rasoda.In</a>
+        <a href="#home" class="logo">Rasoda.in</a>
 
 
 
